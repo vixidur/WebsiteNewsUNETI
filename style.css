@@ -1,0 +1,247 @@
+/*	RESET	*/
+*{
+	margin: 0px;
+	padding: 0px;
+/*	background: ;*/
+	font-family: Arial;
+	font-size: 12px;
+}
+.mau-xanh {
+	position: relative;
+	top: -3px;
+/*	left: 10px;*/
+	background: #267ed7 ;
+	height: 31px;
+	width: 220px;
+}
+.mau-do {
+	position: relative;
+	top: -34px;
+	left: 279px;
+	background-image: linear-gradient(to top,#c5121d, #d66870);
+	height: 26px;
+	width: 704px;
+}
+.mau-gray {
+	position: relative;
+	top: -34px;
+	left: 279px;
+	background-image: linear-gradient(to top,#4984b5, #5dadd1);
+	height: 5px;
+	width: 704px;
+}
+/* ngon ngu */
+.language {
+	position: absolute;
+	display: flex;
+	left: 16px;
+	top: 134.5px;
+	color: white;
+}
+/* thanh dieu huong */
+.main-nav ul{
+	display: flex;
+}
+.main-nav ul li{
+	position: relative;
+	top: -63px;
+	left: 293px;
+	list-style: none;
+	margin-right: 37px;
+	color: white;
+}
+/* danh muc san pham */
+.dmsp {
+	position: relative;
+	top: -107px;
+	left: 12px;
+}
+.sp {
+	position: relative;
+	top: -39px;
+}
+#khung-1 {
+	position: relative;
+	top: 71px;
+	left: 1px;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 204px;
+	width: 216px;
+}
+.main-dmsp {
+	position: relative;
+	top: -114px;
+	left: 1px;
+}
+/* ho tro truc tuyen */
+#khung-2 {
+	position: relative;
+	bottom: 248px;
+	left: 1px;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 204px;
+	width: 216px;
+}
+.httt {
+	position: relative;
+	bottom: 426px;
+	left: 12px;
+}
+/* ti gia */
+
+#khung-3 {
+	position: relative;
+	bottom: 409px;
+	left: 1px;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 151px;
+	width: 216px;
+}
+.tigia {
+	position: relative;
+	left: 13px;
+	bottom: 532px;
+}
+/* user online  */
+#khung-4 {
+	position: relative;
+	bottom: 622px;
+	left: 1px;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 87px;
+	width: 216px;
+}
+/* main content center */
+.header_arrow-img {
+	position: relative;
+	bottom: 1333px;
+	left: 249px;
+}
+.laptop {
+	display: flex;
+	height: auto;
+	flex-wrap: wrap;
+	width: 500px;
+}
+.box {
+	margin: 10px;
+	position: relative;
+	top: 0px;
+	left: 10px;
+	border: 1px solid #2a88a8;
+	width: 219px;
+	height: 280px;
+}
+/* main content right */
+.giohang {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	bottom: 2053px;
+	right: 462px;
+}
+.khung-right-1{
+	position: relative;
+	bottom: 2007px;
+	left: 772px;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 79px;
+	width: 215px;
+}
+.khung-right-2 {
+	position: relative;
+	bottom: 2007px;
+	left: 772px;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 104px;
+	width: 215px;
+}
+.khung-right-3 {
+	position: relative;
+	bottom: 2130px;
+	left: 772px;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 40px;
+	width: 215px;
+}
+.khung-right-4 {
+	position: relative;
+	bottom: 2181px;
+	left: 772px;
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 300px;
+	width: 215px;
+}
+.input-container {
+	position: relative;
+	display: inline-block;
+	top: -44px;
+	left: 13px;
+}
+
+.input-container input {
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.input-container::before {
+	content: "";
+	position: absolute;
+}
+.search {
+	position: relative;
+	top: -41px;
+	left: 58px;
+}
+.box-right-2 {
+	position: relative;
+	top: -13px;
+	left: 0px;
+}
+.contest-2013 p {
+	position: relative;
+	top: -47px;
+/*	left: 10px;*/
+	padding: 5px;
+}
+/* footer */
+.footer {
+	border: 1px solid blue;
+	background-color: #eeeeef;
+	height: 50px;
+	width: 990px;
+	position: relative;
+	bottom: 2356px;
+/*	left: 10px;*/
+}
+.footer ul {
+	list-style: none;
+	display: flex;
+}
+.footer ul li {
+	color: blue;
+	margin-left: 26px;
+}
+.footer ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.footer li {
+	border-right: 1px solid blue;
+	padding: 0 10px;
+}
+
+.footer li:last-child {
+	border-right: none;
+}
